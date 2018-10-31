@@ -1,5 +1,5 @@
 /*gris oscuro = #1d252c
-gri claro = #626262
+gris claro = #626262
 background gris = #1b2127
 celeste = #026fff
 */
@@ -7,6 +7,7 @@ celeste = #026fff
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
 }
 
 
@@ -26,10 +27,12 @@ h1{
 	line-height: 150%;
 	letter-spacing: -1px;
 	color: white;
+	margin:  100px 150px 70px 30px;
 }
 
 h1 strong{
 	color:  #026fff;
+
 }
 
 
@@ -37,6 +40,7 @@ h1 strong{
 .header{
 	background-color: #1d252c;
 	color: white;
+
 }
 
 
@@ -58,11 +62,18 @@ h1 strong{
 }
 
 
+.portfolio{
+	background-color: #fafafa;
+}
 
 
 .project{
 	border: 1px solid gray;
 	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 15px;
+	padding: 20px;
+	background-color: white;
 }
 
 
