@@ -25,6 +25,16 @@ h1 strong{
 	color:  #026fff;
 }
 
+
+h2{
+	color:  #026fff;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
 figure{
 	margin:0;
 }
@@ -92,22 +102,45 @@ figure{
 }
 
 
+
+
+/*    PORTAFOLIO      */
 .portfolio{
 	background-color: #fafafa;
+	padding: 20px;
 }
 
 
 .project{
 	border: 1px solid gray;
 	border-radius: 10px;
-	margin: 10px;
 	margin-bottom: 15px;
 	padding: 20px;
 	background-color: white;
 	display: flex;
-
+	align-items: center;
+	justify-content: space-between;
 }
 
+.project strong{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title{
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: : 10px;
+}
+
+.project-description{
+	font-size: 20px;
+}
+
+.project-curse,
+.project-date,
+.project-url{
+	margin: 10px 0;
+}
 
 .project-details,
 .project-imageContainer
