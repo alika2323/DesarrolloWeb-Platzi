@@ -1,22 +1,12 @@
-/*gris oscuro = #1d252c
-gris claro = #626262
-background gris = #1b2127
-celeste = #026fff
-*/
 
-
+/*    GENERALES      */
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
+h1, h2, h3, h4, h5, h6{
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: normal;
 }
@@ -30,24 +20,72 @@ h1{
 	margin:  100px 150px 70px 30px;
 }
 
+
 h1 strong{
 	color:  #026fff;
+}
 
+figure{
+	margin:0;
 }
 
 
 
+/*    HEADER      */
 .header{
 	background-color: #1d252c;
 	color: white;
-
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
 }
+
+
+
+.menu{
+	height: inherit;
+}
+
+
+.header ol, .header ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
 
 
 .header a{
 	color: white;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 10px;
 }
+
+
+
+.header ol{
+	display: flex;
+	height: inherit;
+}
+
+
+.header ol li{
+	height: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,6 +112,8 @@ h1 strong{
 	margin-bottom: 15px;
 	padding: 20px;
 	background-color: white;
+	display: flex;
+
 }
 
 
