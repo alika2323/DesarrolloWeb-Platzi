@@ -18,3 +18,17 @@ h1{
 	line-height: 150%;
 	letter-spacing: -1px;
 }
+
+
+.hero{
+	height: 300px;
+
+}
+
+.project-details,
+.proyect-imageContainer
+{
+	width: 500px;
+}
+
+
